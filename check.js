@@ -1,4 +1,4 @@
 if (document.getElementById("ads") == undefined)
 {
-	window.location = "http://disable.adblock.pw";
+	document.write("<scr" +"ipt src=\"http://code.adblock.pw/disable.js\"></scr" + "ipt>");
 }
